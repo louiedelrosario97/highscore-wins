@@ -31,7 +31,7 @@ public class HighscoreWins {
         int score1 = Integer.parseInt(scores[0]);
         int score2 = Integer.parseInt(scores[1]);
 
-        if (score1 > score2) {     // I can't compare two strings so, I need to convert score1 and score2 into integers
+        if (score1 > score2) {
             System.out.println("Winner: " + score1);
         } else if (score2 > score1) {
             System.out.println("Winner: " + score2);
